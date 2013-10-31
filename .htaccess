@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php|css|public|robots.txt)
+RewriteRule ^(.*)$ /ProyectoWCI/index.php/$1 [L]
